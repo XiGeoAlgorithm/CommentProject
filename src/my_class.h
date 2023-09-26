@@ -36,7 +36,7 @@ public:
 	 * @return		int
 	 * @todo		sth. is todo
 	 * @bug			a bug
-     * @deprecated	在版本v1.2.3后将不再支持
+	 * @deprecated	在版本v1.2.3后将不再支持
 	 * @author		author
 	 */
 	int add(int x, int y) const;
