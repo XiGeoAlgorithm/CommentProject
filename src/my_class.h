@@ -1,22 +1,22 @@
 /**
  * @file	my_class.h
  * @brief	file_brief: my_class.h
- * @note	authorÓÀÔ¶·ÅÔÚ×îºóÒ»Ïî
+ * @note	authoræ°¸è¿œæ”¾åœ¨æœ€åä¸€é¡¹
  * @author	author
  */
 #pragma once
 
 /**
- * @brief »ùÀà
- * @author ×÷Õß
+ * @brief åŸºç±»
+ * @author ä½œè€…
  */
 class Base {
 
 };
 
 /**
- * @brief ×ÓÀà0
- * @author ×÷Õß
+ * @brief å­ç±»0
+ * @author ä½œè€…
  */
 class Derived : public Base {
 private:
@@ -24,8 +24,13 @@ private:
 };
 
 /**
- * @brief ×ÓÀà1
- * @author ×÷Õß
+ * @brief å­ç±»1
+ * @example	
+ * 	int main {
+ *	  printf("Hello\n");
+ *	  return 0;
+ *	}
+ * @author ä½œè€…
  */
 class MyClass : public Base {
 public:
@@ -36,7 +41,7 @@ public:
 	 * @return		int
 	 * @todo		sth. is todo
 	 * @bug			a bug
-	 * @deprecated	ÔÚ°æ±¾v1.2.3ºó½«²»ÔÙÖ§³Ö
+	 * @deprecated	åœ¨ç‰ˆæœ¬v1.2.3åå°†ä¸å†æ”¯æŒ
 	 * @author		author
 	 */
 	int add(int x, int y) const;
@@ -48,20 +53,20 @@ public:
 	 */
 	void subtract() const;
 
-	int z_; ///< ±äÁ¿µÄµ¥ĞĞ×¢ÊÍÑİÊ¾, ÓÃ `///<` À´±íÊ¾
+	int z_; ///< å˜é‡çš„å•è¡Œæ³¨é‡Šæ¼”ç¤º, ç”¨ `///<` æ¥è¡¨ç¤º
 
 	/**
-	 * @brief ±äÁ¿µÄ¶àĞĞ×¢ÊÍÑİÊ¾
+	 * @brief å˜é‡çš„å¤šè¡Œæ³¨é‡Šæ¼”ç¤º
 	 *		sum_ description is tool long,
 	 *			one line is not enough
 	 *
 	 *			sum_ description line_2,
 	 *			sum_ description line_2.
-	 * @note ¹«Ê½ÌáÊ¾ \f$ sum = x + y \f$
+	 * @note å…¬å¼æç¤º \f$ sum = x + y \f$
 	 * @code{.cpp}
 	 * \f$ sum = x + y \f$
 	 * @endcode
-	 * @deprecated	ÔÚ°æ±¾v1.2.3ºó½«É¾³ı
+	 * @deprecated	åœ¨ç‰ˆæœ¬v1.2.3åå°†åˆ é™¤
 	 */
 	int sum_; 
 
